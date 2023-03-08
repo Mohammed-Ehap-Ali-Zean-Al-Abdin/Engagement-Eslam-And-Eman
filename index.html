@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Eslam & Eman</title>
+</head>
+<body>
+    <header><h2>Eslam & Eman</h2></header>
+    <section id="ringSection">
+        <h2>Click on Ring To Watch Video</h2>
+        <div id="ring"><img id="ringImg" src="./images/ring.png" alt="ring"></div>
+    </section>
+    <section id="mediaSection" class="hidden">
+        <h2 class="main-title">Video</h2>
+        <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/805798621?h=98238aeb9e&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="E&amp;amp;E.mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+        <h2 class="main-title">Gallery</h2>
+            <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 4</div>
+                <img src="./images/1.jpg" alt="Eslam & Eman Photos">
+                <div class="text">E&E</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 4</div>
+                <img src="./images/2.jpg" alt="Eslam & Eman Photos">
+                <div class="text">E&E</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 4</div>
+                <img src="./images/3.jpg" alt="Eslam & Eman Photos">
+                <div class="text">E&E</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 4</div>
+                <img src="./images/4.jpg" alt="Eslam & Eman Photos">
+                <div class="text">E&E</div>
+            </div>
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div id="dots">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+    </section>
+    <footer><h2>Eslam & Eman © 2023</h2></footer>
+    <script src="app.js"></script>
+</body>
+</html>
